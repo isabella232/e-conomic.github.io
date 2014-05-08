@@ -1,154 +1,163 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		<style type="text/css">
-			html, body {
-				font-family: helvetica, arial;
-				background-color: #f4f4f7;
-			}
-			#top {
-				background-color: #3D4152;
-				padding: 15px 0 100px 30px;
-			}
-			#logo {
-				margin-left: auto;
-				margin-right: auto;
-				width: 1000px;
-				height: 103px;
-				background-image: url(e-conomic-400-inverted.png);
-				background-repeat: no-repeat;
-			}
-			#body {
-				width: 1000px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: -60px;
-				padding: 60px;
-				background-color: white;
-			}
-			.panel {
-				width: 500px;
-				border-radius: 0;
-				-webkit-box-shadow: none;
-				box-shadow: none;
-				float: left;
-			}
-			.panel .panel-heading iframe {
-				margin-top: -2px;
-			}
-			.repository .header h4 {
-				margin: 0;
-			}
-			.repository .header {
-				margin-bottom: 10px;
-			}
-			#technologies .section {
-				font-style: italic;
-				margin-right: 5px;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="top">
-			<div id="logo"></div>
-		</div>
-		<div id="body">
-			<p>More than 10 years ago e-conomic was founded on an idea to bring accounting software to the cloud for businesses. As with any other software 10 years down the road it carried a lot of legacy. Some technologies are deprecated, your understanding of scalable architecure evolves, and you start to grow faster than anyone expected.</p>
+<head>
+	<title>e-conomic open source</title>
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<style>
+		html, body {
+			padding: 0;
+			margin: 0;
+			font-family: pnl;
+			font-size: 18px;
+			color: #555;
+		}
 
-			<p>A few years back we made a conscious choice to invest in using newer technologies and different programming languages. To create an infrastructure that would scale faster than our growth. It's a long process, and still is, but today we always strive to use the <a href="#technologies">right tool for the right job</a> and we have a ton of different services running which can be independently deployed. There is still legacy, and there are still things we wish were different - but we love challenges and we love to keep working. Open source is a big part of this process.</p>
+		h1 {
+			font-size: 32px;
+		}
 
-			<p>These are some of our own open sourced projects that we use in our stack everday (a full list can be found on <a href="https://github.com/e-conomic">github</a>). As we move forward and gain more experience we use more and more open source ourselves and encourage our developers to contribute to other open source projects.</p>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/mongopatch">mongopatch</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=mongopatch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
+		#top {
+			padding-top: 85px;
+			height: 300px;
+			background-image: url(office_large.jpg);
+			background-size: 100% auto;
+		}
+
+		#logo {
+			margin-left: auto;
+			margin-right: auto;
+			width: 285px;
+			height: 71px;
+			background-image: url(logo.png);
+			background-repeat: no-repeat;
+		}
+
+		#logo-text {
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			color: white;
+			font-size: 32px;
+		}
+
+		#body {
+			margin-top: 50px;
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h2 {
+			margin-top: 50px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="logo"></div>
+		<div id="logo-text">Open Source Projects</div>
+	</div>
+	<div id="body">
+		<p>More than 10 years ago e-conomic was founded on an idea to bring accounting software to the cloud for businesses. As with any other software 10 years down the road it carried a lot of legacy. Some technologies are deprecated, your understanding of scalable architecure evolves, and you start to grow faster than anyone expected.</p>
+
+		<p>A few years back we made a conscious choice to invest in using newer technologies and different programming languages. To create an infrastructure that would scale faster than our growth. It's a long process, and still is, but today we always strive to use the <a href="#technologies">right tool for the right job</a> and we have a ton of different services running which can be independently deployed. There is still legacy, and there are still things we wish were different - but we love challenges and we love to keep working. Open source is a big part of this process.</p>
+
+		<h2>Moving towards open source</h2>
+
+		<p>These are some of our own open sourced projects that we use in our stack everday (a full list can be found on <a href="https://github.com/e-conomic">github</a>). As we move forward and gain more experience we use more and more open source ourselves and encourage our developers to contribute to other open source projects.</p>
+
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/mongopatch">mongopatch</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=mongopatch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
 			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/git-fork">git-fork</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=git-fork&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/phantom-render-stream">phantom-render-stream</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=phantom-render-stream&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/github-auth">github-auth</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=github-auth&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/check-dependencies">check-dependencies</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=check-dependencies&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/multifetch">multifetch</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=multifetch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/tc-tap-run">tc-tap-run</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=tc-tap-run&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<hr>
-			<div class="repository">
-				<div class="header clearfix">
-					<h4 class="pull-left"><a href="http://github.com/e-conomic/schemagic">schemagic</a></h4>
-					<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=schemagic&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
-				</div>
-				<div class="description">
-					sdfdsfds
-				</div>
-			</div>
-			<div id="technologies">
-				<h3>The technologies we use</h3>
-				<span class="section">Infrastructure:</span>MongoDB, Redis, Amazon Web Services, etcd, MSSQL, Github<br>
-				<span class="section">Languages:</span>Node.js, C#<br>
-				<span class="section">Tools:</span>Chef, hms<br>
-				<span class="section">Frameworks:</span>ReactJS, backbone<br>
+			<div class="description">
+				sdfdsfds
 			</div>
 		</div>
-	</body>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/git-fork">git-fork</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=git-fork&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/phantom-render-stream">phantom-render-stream</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=phantom-render-stream&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/github-auth">github-auth</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=github-auth&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/check-dependencies">check-dependencies</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=check-dependencies&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/multifetch">multifetch</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=multifetch&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/tc-tap-run">tc-tap-run</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=tc-tap-run&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<hr>
+		<div class="repository">
+			<div class="header clearfix">
+				<h4 class="pull-left"><a href="http://github.com/e-conomic/schemagic">schemagic</a></h4>
+				<div class="pull-right"><iframe class="pull-right" src="http://ghbtns.com/github-btn.html?user=e-conomic&repo=schemagic&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="20"></iframe></div>
+			</div>
+			<div class="description">
+				sdfdsfds
+			</div>
+		</div>
+		<div id="technologies">
+			<h3>The technologies we use</h3>
+			<span class="section">Infrastructure:</span>MongoDB, Redis, Amazon Web Services, etcd, MSSQL, Github<br>
+			<span class="section">Languages:</span>Node.js, C#<br>
+			<span class="section">Tools:</span>Chef, hms<br>
+			<span class="section">Frameworks:</span>ReactJS, backbone<br>
+		</div>
+	</div>
+</body>
 </html>
